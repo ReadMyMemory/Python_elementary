@@ -1,0 +1,10 @@
+#실습 1-1)
+print(int('0011', 2))
+print(int('01010', 2))
+print(int('11', 16))
+print(int('17', 8))
+
+print("")
+#실습 1-2)
+print(int('1011', 2))
+print(int('1A', 16))
