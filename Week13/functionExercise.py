@@ -70,3 +70,19 @@ print("==========================")
 
 print('123'.isdigit())  # True, 따옴표 안의 값에서 숫자만 있는지를 파악
 
+print("==========================")
+test = '수요일 파이썬'
+print(test.replace('수요일', 'Wen')) # Wen 파이썬
+
+print("==========================")
+
+instr, outstr = "", ""
+count, i = 0, 0
+
+instr = input("문자열을 입력하시오: ")
+count = len(instr)
+
+for i in range(0, count):
+    outstr = outstr + instr[count-(i+1)]
+
+print("거꾸로 출력한 문자열 : ==> ")
