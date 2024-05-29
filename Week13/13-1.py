@@ -6,4 +6,4 @@ for _ in range(5):
     alist.append(temp)
     sum += temp
 
-print("평균= %.1f" % (sum / 5))
+print("평균 = %.1f" % (sum / 5))
