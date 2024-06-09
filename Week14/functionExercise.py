@@ -1,4 +1,5 @@
 # 1차시 수업은 못들음
+# 함수 관련 예제 적기
 
 def get_sum(start, end):
     sum = 0
