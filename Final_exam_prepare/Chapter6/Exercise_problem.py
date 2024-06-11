@@ -16,4 +16,16 @@ while n < 4568:
 print(hap)
 """
 
+#09. 코드 작성
+hap = 0
+for i in range(3333, 10000):
+    if i % 1234 != 0:
+        continue
+    else:
+        if hap + i > 100000:
+            break
+        hap += i
+print(hap)
+
+
 
